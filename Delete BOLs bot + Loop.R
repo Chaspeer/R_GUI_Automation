@@ -2,7 +2,7 @@ library('gWidgets2')
 library('KeyboardSimulator')
 
 
-delete_bols <- function(){
+delete_file <- function(){
   
   # Create the GUI.
   w <- gwindow(title="Delete BOLs",visible=TRUE, toolkit = guiToolkit(name = NULL))
@@ -119,4 +119,4 @@ delete_bols <- function(){
   visible(w) <- TRUE
   
 }
-delete_bols()
+delete_file()
